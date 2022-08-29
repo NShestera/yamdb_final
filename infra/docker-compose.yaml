@@ -10,7 +10,7 @@ services:
 
   web:
     build: ../api_yamdb/
-    image: nshestera/api_yamdb:v1.1
+    image: nshestera/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
